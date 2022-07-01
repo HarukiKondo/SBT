@@ -1,0 +1,26 @@
+{
+  "name": "SBT",
+  "version": "1.0.0",
+  "description": "SBTを独自実装したコントラクトを格納するリポジトリです。",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarukiKondo/SBT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarukiKondo/SBT/issues"
+  },
+  "homepage": "https://github.com/HarukiKondo/SBT#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0"
+  }
+}
