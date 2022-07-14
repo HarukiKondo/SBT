@@ -64,8 +64,8 @@ contract SBT is IERC4973, ERC165, ERC721Metadata {
                 Base64.encode(bytes(finalSvg)),
                 '","length":"',
                 "10",
-                ', "id": "did:example:123456789abcdefghi"',
-                '"}'
+                '", "id": "did:example:123456789abcdefghi"',
+                '}'
             )
         );
         // トークンURI用のデータを生成する。
